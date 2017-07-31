@@ -1,1 +1,19 @@
 /* Empty. Add your own CSS if you like */
+
+.girl ion-content {
+    background-color: #ffc2cd;
+}
+
+.girl ion-header-bar {
+    background-color: #fc3468;
+    color: white;
+}
+
+.girl .tab-nav {
+    background-color: #ff93ac;
+}
+
+.girl .tab-item-active {
+    color: #fc3468 !important;
+    border-bottom-color: #fc3468 !important;
+}
