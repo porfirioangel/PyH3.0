@@ -1,0 +1,43 @@
+<ion-view view-title="Account">
+    <ion-content class="padding">
+        <div class="bg_heart"></div>
+
+        <div class="app-fixed-title">
+            <h1>Adoro</h1>
+            <h2 id="txtMensaje"></h2>
+        </div>
+
+        <div class="fixed-button-container">
+            <table>
+                <tr>
+                    <td>
+                        <button class="button button-block button-stable"
+                                ng-click="previousMessage()">
+                            <i class="ion-ios-arrow-back"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="button button-block button-stable"
+                                ng-click="resumeInterval()"
+                                ng-if="intervalPaused">
+                            <i class="ion-ios-play"></i>
+                        </button>
+                        <button class="button button-block button-stable"
+                                ng-click="pauseInterval()"
+                                ng-if="!intervalPaused">
+                            <i class="ion-ios-pause"></i>
+                        </button>
+                    </td>
+
+                    <td>
+                        <button class="button button-block button-stable"
+                                ng-click="nextMessage()">
+                            <i class="ion-ios-arrow-forward"></i>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </ion-content>
+</ion-view>
