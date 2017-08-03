@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.porfirioads.pyh3" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="2" id="com.porfirioads.pyh3" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>PyH3.0</name>
     <description>Una bonita aplicación para mi princesa</description>
     <author email="porfirioads@gmail.com" href="http://ionicframework.com/">
