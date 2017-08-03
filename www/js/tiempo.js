@@ -10,6 +10,7 @@ angular.module('starter.tiempo', [])
         };
 
         $interval.cancel($rootScope.loveInterval);
+        $interval.cancel($rootScope.msjsInterval);
 
         $rootScope.loveInterval = $interval(function () {
             love();
@@ -38,36 +39,3 @@ angular.module('starter.tiempo', [])
         }, 500);
 
     });
-
-
-// // store the interval promise in this variable
-// var promise;
-//
-// // starts the interval
-// $scope.start = function() {
-//     // stops any running interval to avoid two intervals running at the same time
-//     $scope.stop();
-//
-//     // store the interval promise
-//     promise = $interval(love, 500);
-// };
-//
-// // stops the interval
-// $scope.stop = function() {
-//     $interval.cancel(promise);
-// };
-//
-// // starting the interval by default
-// $scope.start();
-//
-// // stops the interval when the scope is destroyed,
-// // this usually happens when a route is changed and
-// // the ItemsController $scope gets destroyed. The
-// // destruction of the ItemsController scope does not
-// // guarantee the stopping of any intervals, you must
-// // be responsible for stopping it when the scope is
-// // is destroyed.
-// $scope.$on('$destroy', function() {
-//     console.log('$scope.$on.$destroy')
-//     $scope.stop();
-// })
